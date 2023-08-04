@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background: url('../images/bg-repeat.jpg');
+    background-size: auto 400px;
+    background-repeat: repeat-x;
+    background-color: var(--corFundo);
+    display: flex;
+}
+.main{
+    width: 300px;
+    height: 111px;
+    margin: 146px 60px 0px 50px;
+}
+.main .titulo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+.main .texto{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.formulario{
+    margin-top: 12px;
+    background-color: white;
+    Width: 340px;
+    Height: 378px;
+    padding: 21px;
+    display: flex;
+    flex-direction: column;
+}
+.formulario .campoDoFormulario{
+    border-radius:5px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.formulario .campoDoFormulario:focus {
+    box-shadow: 0 0 3px black;
+  }
+.formulario .campoDoFormulario.valido{
+    border: 1px solid var(--corPositivaBrilhante);
+}
+.formulario .campoDoFormulario.invalido{
+    border: 1px solid var(--corNegativaBrilhante);
+}
+.formulario .campoDoFormulario::placeholder{
+    color: var(--corPlaceholderNeutra);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.formulario .campoDoFormulario.campoSimples{
+    height: 36px;
+}
+.formulario .campoDeTexto{
+    height: 100px;
+    resize: none;
+}
+.formulario .etiqueta{
+    color: var(--corNegativaBrilhante);
+    margin-bottom: 5px;
+}
+.invisivel{
+    visibility: hidden;
+}
+.visivel{
+    visibility: visible;
+}
+.formulario .instrucao{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1px 0px 11px -7px;
+}
+.btnEnviar{
+    background-color: var(--corBotaoEnviar);
+    border-radius: 7px;
+    width: 298.013px;
+    height: 41.129px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: normal;
+}
+.btnEnviar:hover{
+    box-shadow: 0 0 5px black;
+}

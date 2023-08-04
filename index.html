@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/variables.css">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/responsive.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <section class="main">
+            <h2 class="titulo">
+                FICOU COM DÚVIDA? <br> 
+                NOS MANDE UMA MENSAGEM!
+            </h2>
+            <p class="texto">
+                Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem 
+                e entraremos em contato em menos de 24h.
+            </p>
+        </section>
+        <form class="formulario"> 
+            <input type="text" id="fnome" name="campo_nome" value="" placeholder="Nome completo*" class="campoDoFormulario campoSimples">
+            <label for="fnome" class="etiqueta invisivel">campo obrigatório</label>
+            <input type="text" id="femail" name="campo_email" value="" placeholder="Email *" class="campoDoFormulario campoSimples">
+            <label for="femail" class="etiqueta invisivel">campo obrigatório</label>
+            <input type="tel" id="ftelefone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="campo_telefone" value="" placeholder="Telefone *" class="campoDoFormulario campoSimples" maxlength="13">
+            <label for="ftelefone" class="etiqueta invisivel">campo obrigatório</label>
+            <textarea id="ftext" name="campo_text" rows="12" id="mensagem" name="fmensagem" value="" placeholder="Mensagem *" class="campoDoFormulario campoDeTexto"></textarea>
+            <label for="ftext" class="etiqueta invisivel">campo obrigatório</label>
+            <p class="instrucao">*campo obrigatório</p>
+            <input id="botaoEnviarFormulario" type="submit" value="Enviar " class="btnEnviar">
+        </form>
+        <script src="./src/js/valida.js"></script>
+    </body>
+</html>
