@@ -2,6 +2,7 @@
 <p>Este projeto é uma quest pronta feita como parte de um dos exercícios do curso dev quest.
 A atividade consiste em fazer uma página web usando html/css/js contendo um formulário.
 Ao clicar no botão enviar, o <i>Javascript</i> deve validar os campos e destacar aqueles que estão corretamente preenchidos.
+Não é dito de maneira explicita, mas a mensagem "* campo obrigatório" desce um pouco se o campo de texto não estiver preenchigo
 </p>
 
  ![imagem 1](https://github.com/SaschaBorgesLucas/formulario/assets/35588147/c94a72b5-0666-43de-83be-7e127360ea05)
