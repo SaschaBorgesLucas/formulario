@@ -26,8 +26,6 @@ function moverTestoInstrucao(campo){
         instrucaoDoFormulario.classList.remove ('rebaixada');
     }
 }
-
-
 function validaFormulario(event) {
    camposDoFormulario.forEach((campo, index) => {
     if (campo.value === '') {
