@@ -14,6 +14,3 @@ ajuda a axperiência do usuário ao usar um sistema web, permitindo o usuário r
 seja distraído e até evitando alguns clicks acidentais</ul>
 <ul><b>Formatação do campo de telefone:</b> agora o campo de telefone aceita apenas números, isso dificulta alguém de colocar uma informação inválida no campo.<br>
 Além disso, o telefone está formatado no padrão usado no brasil ou seja <b>nn nnnnn nnnn</b> onde n é um algarismo.</ul>
-<h2>Padrões</h2>
-As váriáveis seguem o seguninte padrão de nomes o quê é + mensagem/propósito/onde é usada/ + intensidade (baseada na saturação e dividida entre brilhante, escura, neutra)
-as unicas cores que não têm variáveis são o preto e o branco.
