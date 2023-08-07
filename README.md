@@ -1,8 +1,11 @@
 <h1>QUEST III</h1>
 <p>Este projeto é uma quest pronta feita como parte de um dos exercícios do curso dev quest.
 A atividade consiste em fazer uma página web usando html/css/js contendo um formulário.
-Ao clicar no botão enviar, o <b>Javascript</b> deve validar os campos e destacar aqueles que estão corretamente preenchidos.
+Ao clicar no botão enviar, o <i>Javascript</i> deve validar os campos e destacar aqueles que estão corretamente preenchidos.
 </p>
+
+ ![imagem 1](https://github.com/SaschaBorgesLucas/formulario/assets/35588147/c94a72b5-0666-43de-83be-7e127360ea05)
+
 <h2>Desafios pessoais</h2>
 <p>Me dei liberdade de adicionar as seguintes funcionalidades adicionais que não haviam sido demandadas</p>
 <ul><b>Responsividade:</b> a orientação da página muda quando abro ela em dispositivos móveis menores que 730px.<br> 
